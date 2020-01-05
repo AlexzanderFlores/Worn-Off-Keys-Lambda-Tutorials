@@ -1,0 +1,12 @@
+{
+  "name": "1-Addition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"(async () => console.log(await require('./index').handler({num1:5,num2:10})))();\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
