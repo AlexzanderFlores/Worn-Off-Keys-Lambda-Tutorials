@@ -1,0 +1,15 @@
+{
+  "name": "3-Calling-Other-Lambda-Functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"(async () => console.log(await require('./index').handler({'num1':20,'num2':30})))();\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "*"
+  }
+}
